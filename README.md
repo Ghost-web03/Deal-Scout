@@ -48,6 +48,4 @@ You'll need your own SerpApi and Gemini API keys. (Note to self: move these out 
 - Gemini's free tier only allows 20 requests a day per model. I hit this a lot while testing, so I made sure the app handles it properly — it tells you clearly when it's a quota issue instead of throwing a confusing error.
 - Photo search works by having Gemini describe the image in words, then text-searching Google Shopping for that description — it isn't true reverse-image search. So it's great at getting the right category, color, and style, but it can't guarantee finding the *exact* listing if the specific product isn't well-indexed under matching text, or if a seller's own listing is mislabeled. Text search doesn't have this limitation.
 
-## About me
 
-I'm Hala, a first-year BCA student at Hyderabad School of Business. This is my first hackathon, and I built this while learning how to actually work with AI APIs for the first time. My long-term goal is to become an AI engineer, so this project was as much about learning as it was about trying to win.
